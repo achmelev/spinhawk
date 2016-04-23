@@ -10,7 +10,6 @@
 /.deps
 /.libs
 /Makefile
-/Makefile.in
 /aclocal.m4
 /autom4te.cache
 /bin
@@ -24,10 +23,9 @@
 /config
 /config.cache
 /config.h
-/config.h.in
-/config.h.in~
+!config.h.in
 /config.status
-/configure
+!configure
 /dasdcat
 /dasdconv
 /dasdcopy
@@ -87,7 +85,6 @@
 /softfloat/.deps
 /softfloat/.libs
 /softfloat/Makefile
-/softfloat/Makefile.in
 /softfloat/softfloat.lo
 /softfloat/libsoftfloat.la
 
@@ -95,7 +92,6 @@
 /crypto/.deps
 /crypto/.libs
 /crypto/Makefile
-/crypto/Makefile.in
 /crypto/dyncrypt.la
 /crypto/dyncrypt.lo
 /crypto/sha1.lo
@@ -107,7 +103,6 @@
 /decNumber/.deps
 /decNumber/.libs
 /decNumber/Makefile
-/decNumber/Makefile.in
 /decNumber/libdecNumber.la
 /decNumber/decContext.lo
 /decNumber/decimal128.lo
@@ -117,7 +112,6 @@
 /decNumber/decPacked.lo
 
 # /html/
-/html/Makefile.in
 /html/Makefile
 /html/.DS_Store
 
@@ -156,7 +150,6 @@
 
 # /m4/
 /m4/Makefile
-/m4/Makefile.in
 
 # /makemsi
 /makemsi/out
@@ -164,10 +157,8 @@
 
 # /man/
 /man/Makefile
-/man/Makefile.in
 
 # /po/
-/po/Makefile.in
 /po/Makefile
 /po/POTFILES
 /po/nl.gmo
@@ -176,5 +167,5 @@
 /po/stamp-po
 
 # /util/
-/util/Makefile.in
 /util/Makefile
+*~
